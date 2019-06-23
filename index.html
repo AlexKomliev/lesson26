@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat with browser</title>
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" type="text/css">
+</head>
+<body>
+
+<div id="main-block" class="container mx-auto card pt-5">
+    <div id="view-block" class="card col-lg-12">
+    </div>
+    <hr>
+    <div class="col-lg-8 mx-auto">
+    <form id="input-block" class="w-100">
+        <textarea name="message" class="w-100" placeholder="Please, type your message here"></textarea>
+    </form>
+        <button id="send-message" type="submit" class="btn btn-success float-right mb-3 mt-2">Send</button>
+    </div>
+    <div id="error" class="d-block"></div>
+</div>
+
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
