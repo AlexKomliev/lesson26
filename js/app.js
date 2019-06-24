@@ -77,7 +77,6 @@ const closeChat = () => {
     $('#send-message').remove();
     $('#input-block').remove();
     clearErrors();
-    console.log(timerIdArray);
     clearTimers();
 };
 
